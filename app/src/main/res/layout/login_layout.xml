@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="br.senac.sp.l13.segundaapp.LoginActivity"
+    android:paddingTop="120dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/brazil"/>
+
+<EditText
+    android:hint="Email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color"
+    android:padding="10dp"
+    android:inputType="textEmailAddress"
+
+    />
+    <EditText
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/colorf1"
+        android:layout_marginTop="40dp"
+        android:padding="20dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not a member?Sign up Now"
+        android:textColor="@color/color"
+        android:layout_marginTop="20dp"
+       android:textAlignment="center"
+        android:textSize="18sp"/>
+
+</LinearLayout>

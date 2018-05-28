@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.senac.sp.l13.segundaapp.RegisterActivity"
+    tools:showIn="@layout/register_layout"
+    android:paddingTop="100dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <EditText
+        android:hint="@string/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color3"
+        android:padding="10dp"/>
+    <EditText
+        android:hint="@string/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color3"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+    <EditText
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color3"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"/>
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already registred !Login Me."
+        android:textColor="@color/color"/>
+
+
+
+
+</LinearLayout>
